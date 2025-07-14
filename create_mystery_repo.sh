@@ -70,7 +70,7 @@ cat <<'EOF' >> detective.ts
 
 // Footprints — size 9½ — appear in the freshly-compiled mud of our codebase.
 export function footprints(distance: number): string {
-    return \`Footprints measure \${distance} pixels — unmistakably size 9½.\`;
+    return `Footprints measure ${distance} pixels — unmistakably size 9½.`;
 }
 EOF
 commit "feat: Footprints of a cunning function appear" detective.ts
