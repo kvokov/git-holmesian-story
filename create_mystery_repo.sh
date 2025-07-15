@@ -164,3 +164,15 @@ semicolon gave itself away.
 — **Dr John H. Watson**, M.D.
 EOF
 commit "docs: Watson pens the case summary — a lesson in punctuation" README.md
+
+cat <<'EOF'
+
+🕯️  221B Baker Street, 11:47 p.m.
+
+📜  To start your investigation in chronological order:
+    git log --reverse -p
+
+Every commit is a clue; every diff, a muddy footprint in the fog.
+May your deductions be as swift and sure‑footed as Sherlock Holmes’s own.
+
+EOF
